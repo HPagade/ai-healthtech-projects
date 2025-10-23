@@ -1,0 +1,29 @@
+# Complete dependencies for all projects in AI Healthtech Portfolio
+# Install with: pip install -r requirements-all.txt
+
+# Core Data Science
+pandas==2.1.4
+numpy==1.26.3
+
+# Visualization
+matplotlib==3.8.2
+seaborn==0.13.0
+plotly==5.18.0
+
+# Web Scraping
+requests==2.31.0
+beautifulsoup4==4.12.2
+lxml==5.1.0
+
+# Machine Learning
+scikit-learn==1.3.2
+
+# Web Frameworks
+streamlit==1.29.0
+
+# AI/LLM
+openai==1.6.1
+langchain==0.0.350
+
+# Note: Install project-specific requirements in each project directory
+# for minimal installations
