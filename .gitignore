@@ -205,3 +205,19 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# Streamlit
+.streamlit/secrets.toml
+.streamlit/credentials.toml
+
+# Generated data files
+*/data/*.csv
+*/data/*.json
+*/data/*.db
+*/visualizations/*.png
+*/models/*.pkl
+*/output/*.txt
+*/profiles/*.json
+
+# But keep .gitkeep files
+!.gitkeep
